@@ -3,13 +3,14 @@ import './App.css'
 import React, { useRef } from 'react'
 import { useReactToPrint } from 'react-to-print'
 
-import ContactInfoTable from "./components/ContactInfoTable";
-import WorkExperience  from "./components/WorkExperience";
-import Education from "./components/Education"
-import Profile from "./components/Profile"
-import Hobbies from "./components/Hobbies"
-import Skills from "./components/Skills"
-import Other from "./components/Other"
+import TestComp from "./components/TestComp"
+import ContactInfoTable from "./components/ContactInfoTable.jsx"
+import WorkExperience  from "./components/WorkExperience.jsx"
+import Education from "./components/Education.jsx"
+import Profile from "./components/Profile.jsx"
+import Hobbies from "./components/Hobbies.jsx"
+import Skills from "./components/Skills.jsx"
+import Other from "./components/Other.jsx"
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
           </div>
         </div>
       </div>
+      <TestComp></TestComp>
     </div>
   )
 }
