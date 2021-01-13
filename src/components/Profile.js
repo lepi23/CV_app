@@ -12,7 +12,7 @@ const Profile = ({list}) => {
                 En ole aiemmin ollut yliopisto-opintojani vastaavan alan (ohjelmistotekniikka) työtehtävissä.
             </ListGroup.Item>
             <ListGroup.Item>
-                Olen suunnitellyt aloittavani diplomityön tekemisen ensi vuoden keväällä, joten diplomityöpaikka on myös etsinnässä.
+                Olen suunnitellut aloittavani diplomityön tekemisen ensi vuoden keväällä, joten diplomityöpaikka on myös etsinnässä.
             </ListGroup.Item>
         </ListGroup>
     )
