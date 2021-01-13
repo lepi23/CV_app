@@ -1,16 +1,25 @@
 
-import './App.css';
+import './App.css'
+import React, { useRef } from 'react'
+import { useReactToPrint } from 'react-to-print'
+
 import ContactInfoTable from "./components/ContactInfoTable";
-import SkillItem  from "./components/SkillItem";
+import WorkExperience  from "./components/WorkExperience";
 import Education from "./components/Education"
 import Profile from "./components/Profile"
+import Hobbies from "./components/Hobbies"
+import Skills from "./components/Skills"
+import Other from "./components/Other"
 
-function App() {
-  const lukioText = "Tutkinto aluksi IB (kansainvälinen ylioppilastutkinto), mutta vaihto tavalliseen suomalaiseenylioppilastutkintoon vuonna 2016."
-  const yliopistoText = "Diplomi-insinööri opintojen neljäs vuosi meneillään Tampereen yliopiston Hervannan kampuksella (edellinen nimi Tampereen teknillinen yliopisto)."
+
+const App = () => {
+  const componentRef = useRef();
+  const handlePrint = useReactToPrint({
+    content: () => componentRef.current,
+  })
+
   return (
-    <div>
-        
+    <div ref={componentRef}>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     </link>
 
@@ -21,36 +30,26 @@ function App() {
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
-            <h3>Profiili</h3>
             <Profile/>
+            <br></br>
+            <Hobbies/>
+            <br></br>
+            <br></br>
+            <Other/>
           </div>
           <div class="col-sm-8">
             <Education/>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
-              <h3>Työkokemus</h3>
-              <SkillItem 
-                title="Pihahuolto" 
-                date = "13.5-31.8.2019"
-                place="Lännen Kiinteistöpalvelu"
-                btext="kaikenlaista tehtiin...">
-              </SkillItem>
-          </div>
-          <div class="col-sm-8">
-              <h3>Työkokemus</h3>
-              <SkillItem 
-                title="Pihahuolto" 
-                date = "13.5-31.8.2019"
-                place="Lännen Kiinteistöpalvelu"
-                btext="kaikenlaista tehtiin...">
-              </SkillItem>
+            <br></br>
+            <WorkExperience/>
+            <br></br>
+            <Skills/>
+            <br></br>
           </div>
         </div>
       </div>
+      <button onClick={handlePrint}>Print this out!</button>
     </div>
   )
 }
 
-export default App;
+export default App

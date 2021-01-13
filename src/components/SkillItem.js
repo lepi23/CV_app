@@ -1,23 +1,23 @@
 import {React, useState} from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 const SkillItem = ({title, date, place, btext}) => {
     const [showInfo, setShowInfo] = useState(true)
     const [text, setText] = useState(btext)
-    const [buttonImg, setButtonImg] = useState("hide")
+    const [buttonImg, setButtonImg] = useState("Piilota")
 
     const handleClick = () => {
         if (showInfo === true)
         {
             setShowInfo(false)
             setText(null)
-            setButtonImg("...")
+            setButtonImg("Lisää")
         }
         else
         {
             setShowInfo(true)
             setText(btext)
-            setButtonImg("hide")
+            setButtonImg("Piilota")
         }
     }
 
@@ -38,8 +38,7 @@ const SkillItem = ({title, date, place, btext}) => {
                 <p>
                     {text}
                 </p>
-                <button onClick={handleClick}>{buttonImg}
-                </button>
+                <Button variant="primary" onClick={handleClick}>{buttonImg} </Button>
             </div>
         
     )

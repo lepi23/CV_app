@@ -5,13 +5,16 @@ const yliopistoText = "Tietotekniikan maisteriopintojen ensimmäinen vuosi menei
 
 const mystyle = {
     backgroundColor: 'lightblue',
-    border: '2px solid #000000'
+    border: '2px solid darkGrey',
+    borderRadius: "6px",
+    padding:"5px"
   };
 
-const Koulutus = () => {
+
+const Education = () => {
     return(
     <div class="container" style={mystyle}>
-        <h3>Koulutus</h3>
+        <h3><i class="fas fa-graduation-cap"></i>Koulutus</h3>
         <SkillItem 
             title="Ylioppilas" 
             place="Tampereen lyseon lukio"
@@ -29,4 +32,4 @@ const Koulutus = () => {
     )
 }
 
-export default Koulutus
+export default Education

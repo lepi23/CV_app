@@ -13,18 +13,18 @@ const ContactInfoTable = () => {
             </Row>
             <Row className="justify-content-md-center">
                 <Col xs lg="3">
-                    <p><i class="fas fa-home"></i> Tampere</p>
+                    <p><i class="fas fa-home"></i> Ylisenkatu 4 B 15, Tampere</p>
                 </Col>
-                <Col xs lg="3">
+                <Col xs lg="5">
                     <p><i class="fas fa-phone"></i> +358 509128619</p>
                 </Col>
             </Row>
             <Row className="justify-content-md-center">
-                <Col xs lg="3">
+                <Col xs lg="5">
                     <p><i class="fas fa-envelope-square"></i> leevi.saarinen@tuni.fi</p>
                 </Col>
-                <Col xs lg="3">
-                    <p><i class="fab fa-linkedin"></i> Tampere</p>
+                <Col xs lg="5">
+                    <p><i class="fab fa-linkedin"></i> www.linkedin.com/in/leevi-saarinen-98a225179</p>
                 </Col>
             </Row>
 

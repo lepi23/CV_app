@@ -2,17 +2,17 @@ import { ListGroup } from "react-bootstrap"
 
 
 const Profile = ({list}) => {
-    const testList = ["moi","fafsdfsaf","uujoo"]
     return(
         <ListGroup>
+            <h3>Profiili</h3>
             <ListGroup.Item>
-                Etsin kesäksi työpaikkaa web-ohjelmointi alalta. 
+                Etsin kesäksi web-ohjelmointiin tai ohjelmistokehitykseen liittyvää työ- tai harjoittelupaikkaa. 
             </ListGroup.Item>
             <ListGroup.Item>
-                En ole aiemmin ollut yliopisto-opintojani vastaavan alan työtehtävissä.
+                En ole aiemmin ollut yliopisto-opintojani vastaavan alan (ohjelmistotekniikka) työtehtävissä.
             </ListGroup.Item>
             <ListGroup.Item>
-                Minulla on myös haussa ensi vuonna aloittamani diplomityöpaikka.
+                Olen suunnitellyt aloittavani diplomityön tekemisen ensi vuoden keväällä, joten diplomityöpaikka on myös etsinnässä.
             </ListGroup.Item>
         </ListGroup>
     )
