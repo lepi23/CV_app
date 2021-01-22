@@ -1,0 +1,55 @@
+{
+    "FIN": 
+    {
+        "profile":{
+            "mainTitle": "Profiili",
+            "profileSentences":
+            [
+                "Etsin kesäksi web-ohjelmointiin tai ohjelmistokehitykseen liittyvää työ- tai harjoittelupaikkaa.",
+                "En ole aiemmin ollut yliopisto-opintojani vastaavan alan (ohjelmistotekniikka) työtehtävissä.",
+                "Olen suunnitellut aloittavani diplomityön tekemisen ensi vuoden keväällä, joten diplomityöpaikka on myös etsinnässä."
+            ]
+        },
+        "hobbies":{
+            "mainTitle":"Harrastukset",
+            "hobbyList":
+            [
+                "Pelailu","Lukeminen","Jalkapallon seuraaminen"
+            ]
+        },
+        "other":{
+            "mainTitle":"Muuta",
+            "otherList":
+            [
+                "B-ajokortti","Hygieniapassi","Varusmiespalvelus suoritettu"
+            ]
+        }
+    },
+    "EN":
+    {
+        "profile":{
+            "mainTitle": "Profile",
+            "profileSentences":
+            [
+                "I am looking for a job or trainee position related to web or software development for the summer.",
+                "I haven't yet worked in a job that would correspond to my current university studies (software engineering).",
+                "I am planning to start working on my master thesis during the next spring (2022). Therefore I am also interested in possible opportunities to find a place to do that as well. "
+            ]
+        },
+        "hobbies":{
+            "mainTitle":"Hobbies",
+            "hobbyList":
+            [
+                "Playing games","Reading books","Watching football"
+            ]
+        },
+        "other":{
+            "mainTitle":"Other info",
+            "otherList":
+            [
+                "Driving license","Hygiene passport","Military service completed"
+            ]
+        }
+    }
+    
+}

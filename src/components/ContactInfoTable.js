@@ -27,6 +27,14 @@ const ContactInfoTable = () => {
                     <p><i class="fab fa-linkedin"></i> www.linkedin.com/in/leevi-saarinen-98a225179</p>
                 </Col>
             </Row>
+            <Row className="justify-content-md-center">
+                <Col xs lg="5">
+                    <p><i class="fab fa-github"></i> https://github.com/lepi23</p>
+                </Col>
+                <Col xs lg="5">
+                    <br></br>
+                </Col>
+            </Row>
 
         </Container>
     </div>

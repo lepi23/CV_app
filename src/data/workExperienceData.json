@@ -1,0 +1,42 @@
+{
+    "FIN": 
+    {
+        "mainTitle": "Työkokemus",
+        "work":
+        [
+            {
+                "title": "Pihahuolto",
+                "place": "Lännen Kiinteistöpalvelu",
+                "date":"13.5-31.8.2019",
+                "btext": "Tehtävät: nurmikoiden leikkaus, roskakorien tyhjentäminen, roskakatosten ja pihojen siistiminen, sekä pakettiautolla ajaminen."
+            },
+            {
+                "title": "Kesätyöläinen",
+                "place": "SCA Nokia",
+                "date":"06/2013, 06/2014, 06/2015",
+                "btext": "Tehtävät: Paperitehtaan yksinkertaiset kesätyötehtävät, joihin kuuluivat pihan siivoaminen, papereiden kierrätys, arkistointi, tavaroiden kantaminen."
+            }
+    ]
+    },
+    "EN":
+    {
+        "mainTitle": "Working experience",
+        "work":
+        [
+            {
+                "title": "Outdoor property mainentance",
+                "place": "Lännen Kiinteistöpalvelu",
+                "date":"13.5-31.8.2019",
+                "btext": "Tasks: Lawn mowing, emptying trash bins, cleaning yards and waste sheds and driving a van."
+                
+            },
+            {
+                "title": "Summer helper",
+                "place": "SCA Nokia",
+                "date":"06/2013, 06/2014, 06/2015",
+                "btext": "Tasks: basic paper mill work tasks such as cleaning the outdoor areas, recycling waste paper, filing documents and moving objects around."
+            }
+        ]
+    }
+    
+}

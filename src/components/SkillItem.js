@@ -38,7 +38,7 @@ const SkillItem = ({title, date, place, btext}) => {
                 <p>
                     {text}
                 </p>
-                <Button variant="primary" onClick={handleClick}>{buttonImg} </Button>
+                
             </div>
         
     )

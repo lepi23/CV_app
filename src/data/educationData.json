@@ -1,0 +1,42 @@
+{
+    "FIN": 
+    {
+        "mainTitle": "Koulutus",
+        "educations":
+        [
+            {
+                "title": "Ylioppilas",
+                "place": "Tampereen lyseon lukio",
+                "date":"SYKSY 2013 - KEVÄT 2017",
+                "btext": "Tutkintoni oli aluksi IB (kansainvälinen ylioppilastutkinto), mutta vaihdoin tavalliseen suomalaiseen ylioppilastutkintoon vuonna 2016 ja valmistuin ylioppilaaksi keväällä 2017."
+            },
+            {
+                "title": "Tietotekniikka, kandidaatti ja DI",
+                "place": "Tampereen yliopisto",
+                "date":"Elokuu 2017 -",
+                "btext": "Minulla on tietotekniikan maisteriopintojen ensimmäinen vuosi meneillään Tampereen yliopiston Hervannan kampuksella. Pääaineenani on ohjelmistotuotanto. Kandidaatin tutkinnosta minulla on jäljellä yksi kurssi. Opintopisteideni määrä on 190/300. "
+            }
+    ]
+    },
+    "EN":
+    {
+        "mainTitle": "Education",
+        "educations":
+        [
+            {
+                "title": "Finnish Matriculation Examination",
+                "place": "Tampereen lyseon lukio",
+                "date":"Fall 2013 - Spring 2017",
+                "btext": "I started my studies in International Baccalaureate program but I changed to the basic Finnish Matriculation program in year 2016."
+                
+            },
+            {
+                "title": "Information technology, Bsc and MSc",
+                "place": "Tampere University",
+                "date":"August 2017 -",
+                "btext": "This is my fourth year studying at Tampere University. I have currently 190/300 study points. My major subject is software engineering."
+            }
+        ]
+    }
+    
+}
